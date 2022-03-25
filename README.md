@@ -2,9 +2,7 @@
 
 ---
 
-This is a living document - sources might be added / removed as appropriate. 
-
-Open to suggestions for additions / edits 😊
+This is a living document - sources may change at times. Open to suitable additions 😊
 
 ---
 
