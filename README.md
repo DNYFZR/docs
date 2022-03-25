@@ -16,6 +16,8 @@ Open to suggestions for additions / edits 😊
 | [Awesome Data Engineering](https://awesomedataengineering.com/) | End-to-end guide for learning DE.
 | [GitSwarm Guide](https://www.perforce.com/manuals/gitswarm/ci/yaml/README.html) | GitHub Actions build automation guide.
 
+---
+
 **Machine Learning**
 
 | **Resource** | **Notes**
@@ -25,6 +27,8 @@ Open to suggestions for additions / edits 😊
 | [Visual Intro to ML Part 1](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) | Intro to ML, decision tree models & overfitting.
 | [Visual Intro to ML Part 2](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/) | Model tuning & bias-variance trade off.
 | [Tensorflow Neural Network Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.58261&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) | Interactive visualisation of a NN.
+
+---
 
 **Programming**
 
@@ -38,6 +42,8 @@ Open to suggestions for additions / edits 😊
 | [Hands-on Programming with R](https://d1b10bmlvqabco.cloudfront.net/attach/ighbo26t3ua52t/igp9099yy4v10/igz7vp4w5su9/OReilly_HandsOn_Programming_with_R_2014.pdf) | Focused on function programming & simulation.
 | [Make Me an Analyst](https://makemeanalyst.com/r-programming/) | Covers data structures, flow control, functions, looping functions, sampling & data viz.
 
+---
+
 **SQL**
 
 | **Resource** | **Notes**
@@ -48,3 +54,13 @@ Open to suggestions for additions / edits 😊
 | [SQL Language Courses & Tutorials](https://sql.sh/) | French site - excellent reference, and the vast majority can be translated by Google et al. 
 |  | 
 |  | 
+
+---
+
+**Topical**
+
+| **Resource** | **Notes**
+|--|--
+| [TDS Climate Change Cirriculum](https://towardsdatascience.com/the-data-science-climate-change-curriculum-e93b2ba1b969) | Cirriculum covering the application of data engineering, data science and machine learning to help address the problems of climate change. 
+
+---
