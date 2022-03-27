@@ -20,6 +20,7 @@ This is a living document - sources may change at times. Open to suitable additi
 
 | **Resource** | **Notes**
 |--|--
+| [Making Friends with ML](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG) | Extensive series on machine learning from the ground up by Cassie Kozyrkov (Cheif Decision Scientist @ Google). 
 | [Seeing Theory](https://seeing-theory.brown.edu/) | A visual introduction to probability & statistics.
 | [Made With ML](https://madewithml.com/) | Covering foundational ML concepts as well as more detatiled MLOps concepts & practises.
 | [Visual Intro to ML Part 1](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) | Intro to ML, decision tree models & overfitting.
