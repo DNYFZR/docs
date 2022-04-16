@@ -30,13 +30,10 @@ This is a living document - sources may change at times. Open to suitable additi
 
 ---
 
-**Programming**
+**Data Science**
 
 | **Resource** | **Notes**
 |--|--
-| [The Algorithms](https://github.com/TheAlgorithms) | A place to start learn any programming language.
-| [The Missing Semester (MIT)](https://missing.csail.mit.edu/) | Shell tools / scripting, CLI, version control (Git), debugging, security & cryptography.
-| [Python - Object Oriented](https://www.youtube.com/watch?v=8moWQ1561FY) | PyCon 2020 - Object Oriented Programming from scratch (Raymond Hettinger)
 | [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) | Foundtional Python for DS. 
 | [R Programming for Data Science](https://www.cs.upc.edu/~robert/teaching/estadistica/rprogramming.pdf) | Associated book for popular Coursera course.
 | [Advanced R](https://adv-r.hadley.nz/) | For: R programmers who want to understand how the language works, and, programmers from other languages who are learning R.
@@ -44,6 +41,17 @@ This is a living document - sources may change at times. Open to suitable additi
 | [Make Me an Analyst](https://makemeanalyst.com/r-programming/) | Covers data structures, flow control, functions, looping functions, sampling & data viz.
 
 ---
+
+**Programming**
+
+| **Resource** | **Notes**
+|--|--
+| [The Algorithms](https://github.com/TheAlgorithms) | A place to start learn any programming language.
+| [The Missing Semester (MIT)](https://missing.csail.mit.edu/) | Shell tools / scripting, CLI, version control (Git), debugging, security & cryptography.
+| [Python - Object Oriented](https://www.youtube.com/watch?v=8moWQ1561FY) | PyCon 2020 - Object Oriented Programming from scratch (Raymond Hettinger)
+
+---
+
 
 **SQL**
 
