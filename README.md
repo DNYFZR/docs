@@ -12,6 +12,7 @@ This is a living document - sources may change at times. Open to suitable additi
 |--|--
 | [Data Engineering Roadmap](https://drive.google.com/file/d/13U2jrqXGDOIRuM1alAd43aqUT6qieMF0/view) | Seattle Data Guy's end-to-end guide for learning DE.
 | [Awesome Data Engineering](https://awesomedataengineering.com/) | End-to-end guide for learning DE.
+| [BI Tools Blog](https://microsoft-bitools.blogspot.com/) | MS / Azure tools - ADF / Synapse / PBI / PA / DevOps...
 | [GitSwarm Guide](https://www.perforce.com/manuals/gitswarm/ci/yaml/README.html) | GitHub Actions build automation guide.
 
 ---
