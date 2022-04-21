@@ -78,5 +78,6 @@ Open to suitable additions 😎
 | [ADF Blog](https://techcommunity.microsoft.com/t5/azure-data-factory-blog/bg-p/AzureDataFactoryBlog) | Azure Data Factory blog
 | [Databricks Blog](https://databricks.com/blog/category/engineering) | Databricks engineering team blog 
 | [Azure Mentor Blog](https://azurementor.wordpress.com/) | A bit of everything Azure
+|[Azure Virtual Training Days](https://www.microsoft.com/en-us/trainingdays/azure) | Free MS Azure training days
 
 ---
