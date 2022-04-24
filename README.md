@@ -16,6 +16,7 @@ Open to suitable additions 😎
 | [Analytics Engineering guide](https://www.getdbt.com/analytics-engineering/) | Engineering guide from dbt
 | [Awesome Data Engineering](https://awesomedataengineering.com/) | End-to-end guide for learning DE.
 | [BI Tools Blog](https://microsoft-bitools.blogspot.com/) | MS / Azure tools - ADF / Synapse / PBI / PA / DevOps...
+| [Learn dbt](https://courses.getdbt.com/collections) | Learn dbt analytics engineering - free online courses.
 | [GitSwarm Guide](https://www.perforce.com/manuals/gitswarm/ci/yaml/README.html) | GitHub Actions build automation guide.
 
 ---
