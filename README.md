@@ -17,6 +17,7 @@ Open to suitable additions 😎
 | [Awesome Data Engineering](https://awesomedataengineering.com/) | End-to-end guide for learning DE.
 | [BI Tools Blog](https://microsoft-bitools.blogspot.com/) | MS / Azure tools - ADF / Synapse / PBI / PA / DevOps...
 | [Learn dbt](https://courses.getdbt.com/collections) | Learn dbt analytics engineering - free online courses.
+| [Mapping data flows in ADF](https://www.sqlservercentral.com/articles/understanding-mapping-dataflow-in-azure-data-factory) | Worked example of setting up ADF pipeline.
 | [GitSwarm Guide](https://www.perforce.com/manuals/gitswarm/ci/yaml/README.html) | GitHub Actions build automation guide.
 
 ---
