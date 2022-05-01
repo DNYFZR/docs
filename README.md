@@ -56,6 +56,7 @@ Open to suitable additions 😎
 | [The Missing Semester (MIT)](https://missing.csail.mit.edu/) | Shell tools / scripting, CLI, version control (Git), debugging, security & cryptography.
 | [RegExr](https://regexr.com/) | Online regular expression testing environment.
 | [The Python Tutorials](https://www.pythontutorial.net/) | OOP, RegEx, adv concepts GUI programming.
+| [Python OOP design patterns](https://python-patterns.guide/) | Extensive guide on object oriented programming with Python.
 | [Python - Object Oriented](https://www.youtube.com/watch?v=8moWQ1561FY) | PyCon 2020 - Object Oriented Programming from scratch (Raymond Hettinger)
 | [Advanced R](https://adv-r.hadley.nz/) | For: R programmers who want to understand how the language works, and, programmers from other languages who are learning R.
 
