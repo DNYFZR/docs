@@ -26,6 +26,7 @@ Open to suitable additions 😎
 
 | **Resource** | **Notes**
 |--|--
+| [MIT Intro to Deep Learning](http://introtodeeplearning.com/) | MIT's open course on Deep Learning.
 | [Making Friends with ML](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG) | Extensive series on machine learning from the ground up by Cassie Kozyrkov (Cheif Decision Scientist @ Google). 
 | [UC Berkeley Crash Course](https://ml.berkeley.edu/blog/tag/crash-course) | Free crash course in ML - basics + supervised & deep learning methods.
 | [Seeing Theory](https://seeing-theory.brown.edu/) | A visual introduction to probability & statistics.
