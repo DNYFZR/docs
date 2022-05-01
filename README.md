@@ -84,5 +84,6 @@ Open to suitable additions 😎
 | [Databricks Blog](https://databricks.com/blog/category/engineering) | Databricks engineering team blog 
 | [Azure Mentor Blog](https://azurementor.wordpress.com/) | A bit of everything Azure
 |[Azure Virtual Training Days](https://www.microsoft.com/en-us/trainingdays/azure) | Free MS Azure training days
+| [XXL BI Blog](https://xxlbi.com/) | Power BI technical blog.
 
 ---
