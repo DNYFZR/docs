@@ -18,6 +18,7 @@ Open to suitable additions 😎
 | [BI Tools Blog](https://microsoft-bitools.blogspot.com/) | MS / Azure tools - ADF / Synapse / PBI / PA / DevOps...
 | [Learn dbt](https://courses.getdbt.com/collections) | Learn dbt analytics engineering - free online courses.
 | [Mapping data flows in ADF](https://www.sqlservercentral.com/articles/understanding-mapping-dataflow-in-azure-data-factory) | Worked example of setting up ADF pipeline.
+| [Azure DevOps YAML](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines) | DevOps YAML schema guide.
 | [GitSwarm Guide](https://www.perforce.com/manuals/gitswarm/ci/yaml/README.html) | GitHub Actions build automation guide.
 
 ---
