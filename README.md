@@ -85,5 +85,6 @@ Open to suitable additions 😎
 | [Azure Mentor Blog](https://azurementor.wordpress.com/) | A bit of everything Azure
 |[Azure Virtual Training Days](https://www.microsoft.com/en-us/trainingdays/azure) | Free MS Azure training days
 | [XXL BI Blog](https://xxlbi.com/) | Power BI technical blog.
+| [PowerBi tips](https://powerbi.tips/2021/02/power-bi-version-control/) | Dev resources for using PBI 
 
 ---
