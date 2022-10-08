@@ -2,7 +2,7 @@
 
 <br>
 
-[Return to Homepage](../README.md)
+[Return to Homepage](../readme.md)
 
 <br>
 <h2 align="center"><b> 🎓 Machine Learning </b></h2>
