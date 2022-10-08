@@ -1,10 +1,13 @@
----
-### The data cave 🦇
+<h1 align="center"><b> 🦇 The Data Cave  </b></h1>
 
----
+<br>
 
-**Machine Learning**
-API / Data Source | Notes
+[Return to Homepage](../README.md)
+
+<br>
+<h2 align="center"><b> 🎓 Machine Learning </b></h2>
+
+Source | Notes
 -- | --
 [Colour (color) Dataset](https://github.com/codebrainz/color-names/blob/master/output/colors.csv) | The dataset contains a CSV file that has 865 color names with their corresponding RGB(red, green, and blue) values of the color. It also has the hexadecimal value of the color.
 [Kaggle Datasets](http://mlr.cs.umass.edu/ml/) | Kaggle provides a vast container of datasets, sufficient for the enthusiast to the expert.
@@ -16,8 +19,10 @@ API / Data Source | Notes
 [xView Datasets](http://xviewdataset.org/#dataset) | One of the most massive publicly available datasets of overhead imagery. It contains images from complex scenes around the world, annotated using bounding boxes.
 
 
-**Energy & Environment**
-API / Data Source | Notes
+<br>
+<h2 align="center"><b> 🌿 Energy & Environment </b></h2>
+
+Source | Notes
 -- | --
 [NASA Open APIs](https://api.nasa.gov/) | A wide range of open data sources from NASA
 [NASA Earth Natural Events API](https://eonet.gsfc.nasa.gov/what-is-eonet) | API covering natural events 
@@ -27,20 +32,26 @@ API / Data Source | Notes
 [Scottish Water Mills Data](https://maps.nls.uk/projects/mills/download.html) | The Scottish Water Mills Website provides a web-based resource displaying mill locations across Scotland
 [USGS APIs](https://www.usgs.gov/products/data-and-tools/apis) | APIs for various systems managed by the US Geological Survey.
 
-**Fun**
-API / Data Source | Notes
+<br>
+<h2 align="center"><b> 🎡 Fun </b></h2>
+
+Source | Notes
 -- | --
 [Punk API](https://punkapi.com/documentation/v2) | JSON API for info on >300 Brewdog beers - ingredients / brewing methods / images / measured properties. 
 
-**Government / International / Elections**
-API / Data Source | Notes
+<br>
+<h2 align="center"><b> 📉 Government / Political </b></h2>
+
+Source | Notes
 -- | --
 [ESA Datasets](https://earth.esa.int/eogateway/search?text=&category=Data&subFilter=data%20download) | Data search for the European Space Agency
 [UK Government APIs](https://www.api.gov.uk/#uk-government-apis) | Website with links to open APIs for UK Government departments, bodies and devolved / local governments.
 [Ballot Box Scotland](https://app.flourish.studio/@BallotBoxScot) | Data, analysis & visualisations for all elections in Scotland)  
 
-**Sport**
-API / Data Source | Notes
+<br>
+<h2 align="center"><b> 🏓 Sport </b></h2>
+
+Source | Notes
 -- | --
 [Ultimate Tennis Stats](https://www.ultimatetennisstatistics.com/records) | website with data on basically anything & everything tennis.
 [Tennis Data & Odds](http://www.tennis-data.co.uk/alldata.php) | match data and betting odds from multiple bookies for ATP & WTA tours.  
