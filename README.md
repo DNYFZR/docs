@@ -1,9 +1,7 @@
 <h1 align="center"><b> 📚 Dev Resources </b></h1>
 <br>
 
-Resources I've found useful across my work in Software Development and Data / Analytics / ML Engineering.
-
-Check out [the data cave](https://github.com/DNYFZR/Dev-Resources/blob/main/data_cave.md) for data sources. Happy to include suitable additions 😎
+Check out [the data cave](https://github.com/DNYFZR/Dev-Resources/blob/main/data_cave.md) for data resources...
 
 
 <br>
@@ -24,18 +22,24 @@ Check out [the data cave](https://github.com/DNYFZR/Dev-Resources/blob/main/data
 | [Learning Spark 2nd Ed.](https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf) | Link to PDF version
 
 
+
+
 <br>
 <h2 align="center"><b> 🛠 Dev Tools </b></h2>
 <br>
 
 | **Resource** | **Notes**
 |--|--
-| [Online Linux Terminal](https://copy.sh/v86/?profile=linux26) | Copy.sh online Linux practice space
-| [Devtools Reference Section](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/) | Reference for CI/CD, Docker, programming languages, SQL, shell, Git & more
 | [Carbon code](https://carbon.now.sh/) | High quality formatted code image generation  
 | [Shields.io](https://shields.io/) | Metadata badges for projects, links & socials
+| [Online Linux Terminal](https://copy.sh/v86/?profile=linux26) | Copy.sh online Linux practice space
+| [Devtools Reference Section](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/) | Reference for CI/CD, Docker, programming languages, SQL, shell, Git & more
+| [GitSwarm Guide](https://www.perforce.com/manuals/gitswarm/ci/yaml/README.html) | GitHub Actions build automation guide.
+| [Azure DevOps YAML](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines) | DevOps YAML schema guide.
 | [Windows Command Prompt](http://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf) | Basic commands required for working in Windows CLI
 |  | 
+
+
 
 
 <br>
@@ -48,11 +52,11 @@ Check out [the data cave](https://github.com/DNYFZR/Dev-Resources/blob/main/data
 | [Analytics Engineering guide](https://www.getdbt.com/analytics-engineering/) | Engineering guide from dbt
 | [Awesome Data Engineering](https://awesomedataengineering.com/) | End-to-end guide for learning DE.
 | [BI Tools Blog](https://microsoft-bitools.blogspot.com/) | MS / Azure tools - ADF / Synapse / PBI / PA / DevOps...
-| [GitLab dbt handbook](https://about.gitlab.com/handbook/business-technology/data-team/platform/dbt-guide/) | 
+| [GitLab dbt handbook](https://about.gitlab.com/handbook/business-technology/data-team/platform/dbt-guide/) | Guide on setting up a dbt workflow
 | [Learn dbt](https://courses.getdbt.com/collections) | Learn dbt analytics engineering - free online courses.
 | [Mapping data flows in ADF](https://www.sqlservercentral.com/articles/understanding-mapping-dataflow-in-azure-data-factory) | Worked example of setting up ADF pipeline.
-| [Azure DevOps YAML](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines) | DevOps YAML schema guide.
-| [GitSwarm Guide](https://www.perforce.com/manuals/gitswarm/ci/yaml/README.html) | GitHub Actions build automation guide.
+
+
 
 
 <br>
@@ -71,6 +75,8 @@ Check out [the data cave](https://github.com/DNYFZR/Dev-Resources/blob/main/data
 | [Tensorflow Neural Network Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.58261&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) | Interactive visualisation of a NN.
 
 
+
+
 <br>
 <h2 align="center"><b> 🧪 Data Science </b></h2>
 <br>
@@ -81,6 +87,8 @@ Check out [the data cave](https://github.com/DNYFZR/Dev-Resources/blob/main/data
 | [R Programming for Data Science](https://www.cs.upc.edu/~robert/teaching/estadistica/rprogramming.pdf) | Associated book for popular Coursera course.
 | [Hands-on Programming with R](https://d1b10bmlvqabco.cloudfront.net/attach/ighbo26t3ua52t/igp9099yy4v10/igz7vp4w5su9/OReilly_HandsOn_Programming_with_R_2014.pdf) | Focused on function programming & simulation.
 | [Make Me an Analyst](https://makemeanalyst.com/r-programming/) | Covers data structures, flow control, functions, looping functions, sampling & data viz.
+
+
 
 
 <br>
@@ -94,6 +102,8 @@ Check out [the data cave](https://github.com/DNYFZR/Dev-Resources/blob/main/data
 | [Azure SQL for beginners](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN) | Youtube playlist from MS Developer Team
 | [Azure SQL Workshops](https://microsoft.github.io/sqlworkshops/?WT.mc_id=azuresql4beg_azuresql-ch9-code) | Microsoft workshop site covering both Azure SQL & SQL Server
 | [SQL Language Courses & Tutorials](https://sql.sh/) | French site - excellent reference, and the vast majority can be translated by Google et al. 
+
+
 
 
 <br>
