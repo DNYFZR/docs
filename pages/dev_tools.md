@@ -2,6 +2,10 @@
 
 <br>
 
+[🏠 **Homepage**](../readme.md)
+
+<br>
+
 **Source** | **Notes**
 --|--
 [Carbon code](https://carbon.now.sh/) | High quality formatted code image generation  
@@ -13,7 +17,3 @@
 [Windows Command Prompt](http://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf) | Basic commands required for working in Windows CLI
 [Azure Mentor Blog](https://azurementor.wordpress.com/) | A bit of everything Azure
 [Azure Virtual Training Days](https://www.microsoft.com/en-us/trainingdays/azure) | Free MS Azure training days
-
-<br>
-
-[Return to Homepage](../readme.md)
