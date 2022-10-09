@@ -2,6 +2,10 @@
 
 <br>
 
+[🏠 **Homepage**](../readme.md)
+
+<br>
+
 **Source** | **Notes**
 --|--
 [Data Engineering Roadmap](https://drive.google.com/file/d/13U2jrqXGDOIRuM1alAd43aqUT6qieMF0/view) | Seattle Data Guy's end-to-end guide for learning DE.
@@ -15,7 +19,3 @@
 [Databricks Blog](https://databricks.com/blog/category/engineering) | Databricks engineering team blog 
 [XXL BI Blog](https://xxlbi.com/) | Power BI technical blog.
 [PowerBi tips](https://powerbi.tips/2021/02/power-bi-version-control/) | Dev resources for using PBI 
-
-<br>
-
-[Return to Homepage](../readme.md)
