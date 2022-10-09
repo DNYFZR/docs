@@ -2,6 +2,10 @@
 
 <br>
 
+[🏠 **Homepage**](../readme.md)
+
+<br>
+
 **Source** | **Notes**
 --|--
 [Seeing Theory](https://seeing-theory.brown.edu/) | A visual introduction to probability & statistics.
@@ -16,7 +20,3 @@
 [Made With ML](https://madewithml.com/) | Covering foundational ML concepts as well as more detatiled MLOps concepts & practises.
 [Tensorflow Neural Network Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.58261&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) | Interactive visualisation of a NN.
 | [TDS Climate Change Cirriculum](https://towardsdatascience.com/the-data-science-climate-change-curriculum-e93b2ba1b969) | Cirriculum covering the application of data engineering, data science and machine learning to help address the problems of climate change
-
-<br>
-
-[Return to Homepage](../readme.md)
