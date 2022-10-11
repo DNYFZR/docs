@@ -13,6 +13,7 @@
 [RegExr](https://regexr.com/) | Online regular expression testing environment.
 [Data Structures with Java](https://www.youtube.com/watch?v=RBSGKlAvoiM) | 8hr video course with a Google Engineer, from basic to advanced, theory to practice.
 [The Python Tutorials](https://www.pythontutorial.net/) | OOP, RegEx, adv concepts GUI programming.
+[Algorithms in Python](https://www.youtube.com/watch?v=fW_OS3LGB9Q) | Free code camp walkthrough of data structures & algorithms in Python.
 [Python OOP design patterns](https://python-patterns.guide/) | Extensive guide on object oriented programming with Python.
 [Python - Object Oriented](https://www.youtube.com/watch?v=8moWQ1561FY) | PyCon 2020 - Object Oriented Programming from scratch (Raymond Hettinger)
 [Scala for Python Programmers](https://docs.scala-lang.org/scala3/book/scala-for-python-devs.html) | Quick guide to main differences in syntax
