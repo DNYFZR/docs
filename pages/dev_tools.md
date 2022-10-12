@@ -12,6 +12,7 @@
 [Shields.io](https://shields.io/) | Metadata badges for projects, links & socials
 [Online Linux Terminal](https://copy.sh/v86/?profile=linux26) | Copy.sh online Linux practice space
 [Devtools Reference Section](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/) | Reference for CI/CD, Docker, programming languages, SQL, shell, Git & more
+[GitHub Actions Reference](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/ci-cd/github-actions/) | Reference for learning what actions are, and how to configure them for your projects.
 [GitSwarm Guide](https://www.perforce.com/manuals/gitswarm/ci/yaml/README.html) | GitHub Actions build automation guide.
 [Azure DevOps YAML](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines) | DevOps YAML schema guide.
 [Windows Command Prompt](http://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf) | Basic commands required for working in Windows CLI
