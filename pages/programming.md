@@ -20,6 +20,7 @@
 [Hands-on Programming with R](https://d1b10bmlvqabco.cloudfront.net/attach/ighbo26t3ua52t/igp9099yy4v10/igz7vp4w5su9/OReilly_HandsOn_Programming_with_R_2014.pdf) | Focused on function programming & simulation.
 [Advanced R](https://adv-r.hadley.nz/) | For: R programmers who want to understand how the language works, and, programmers from other languages who are learning R.
 [Learning Spark 2nd Ed.](https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf) | Link to PDF version
+[Spark by examples](https://sparkbyexamples.com/) | Guide for working with Apache Spark in Java / Scala, Python & R.
 [SQL Server Tutorial](https://www.sqlservertutorial.net/) | Very extensive set of tutorials, covering from set-up through user-defined functions.
 [MS-SQL Tips](https://www.mssqltips.com/) | Amazing site covering use, integration with other services and system management.  
 [Azure SQL for beginners](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN) | Youtube playlist from MS Developer Team
