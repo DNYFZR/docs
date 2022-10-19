@@ -11,7 +11,6 @@
 [Data Engineering Roadmap](https://drive.google.com/file/d/13U2jrqXGDOIRuM1alAd43aqUT6qieMF0/view) | Seattle Data Guy's end-to-end guide for learning DE.
 [Analytics Engineering guide](https://www.getdbt.com/analytics-engineering/) | Engineering guide from dbt
 [Awesome Data Engineering](https://awesomedataengineering.com/) | End-to-end guide for learning DE.
-[Spark by examples](https://sparkbyexamples.com/) | Guide for working with Apache Spark in Java / Scala, Python & R.
 [BI Tools Blog](https://microsoft-bitools.blogspot.com/) | MS / Azure tools - ADF / Synapse / PBI / PA / DevOps...
 [GitLab dbt handbook](https://about.gitlab.com/handbook/business-technology/data-team/platform/dbt-guide/) | Guide on setting up a dbt workflow
 [Learn dbt](https://courses.getdbt.com/collections) | Learn dbt analytics engineering - free online courses.
