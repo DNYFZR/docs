@@ -1,0 +1,37 @@
+# Configuration File
+site_name: "ResourceHub"
+
+nav:
+    - Home: index.md
+    - Data Sources: data_cave.md
+    - Data Engineering: data_engineering.md
+    - Data Science: data_science.md
+    - Dev Tools: dev_tools.md
+    - Programming: programming.md
+    - Cheat Sheets: cheat_sheets.md
+
+theme:
+  name: material
+
+  font:
+    text: DM Sans
+
+  features:
+    - header.autohide
+  
+  palette:
+    # Dark Mode  
+    - scheme: slate
+      primary: blue
+      accent: pink
+      toggle:
+          icon: material/lightbulb-outline
+          name: Switch to light mode
+     
+    # Light mode
+    - scheme: default
+      primary: blue
+      accent: pink
+      toggle:
+          icon: material/lightbulb 
+          name: Switch to dark mode
