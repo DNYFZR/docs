@@ -9,4 +9,4 @@
 [Data Engineering](data_engineering.md) | Links to resources to learn Data & Analytics Engineering tools, methods and worlflows
 [Data Science](data_science.md) | Links to resources for learning data analytics, data science and machine learning
 [Data Cave](data_cave.md) | API & dataset resources grouped by topic
-[Cheat Sheet Library](/library/) | A range of cheat sheets for Python, SQL, Data Science & Visual Studio Code
+[Cheat Sheet Library](cheat_sheets.md) | A range of cheat sheets for Python, SQL, Data Science & Visual Studio Code
