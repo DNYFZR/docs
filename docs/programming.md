@@ -2,7 +2,7 @@
 
 <br>
 
-[🏠 **Homepage**](../readme.md)
+[🏠 **Homepage**](index.md)
 
 <br>
 
