@@ -11,6 +11,7 @@
 [Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/) | Visual guide for code reviews
 [Big O Notation](https://stackthrive.com/big-o-notation/) | Basics of Big O notation, why it is used and how describe the time and space complexity of algorithms with examples.
 [The Algorithms](https://github.com/TheAlgorithms) | Guides on getting started in almost all modern programming languages.
+[Harvard CS50](https://www.youtube.com/watch?v=8mAITcNt710&embeds_referring_euri=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fharvard-cs50%2F&source_ve_path=OTY3MTQ&feature=emb_imp_woyt) | 24hr video covering the full HArvard computer science course.
 [The Missing Semester (MIT)](https://missing.csail.mit.edu/) | Shell tools / scripting, CLI, version control (Git), debugging, security & cryptography.
 [RegExr](https://regexr.com/) | Online regular expression testing environment.
 [Automate GitHub Releases](https://blog.pradumnasaraf.dev/automate-your-releases-on-github) | Guide to setting up Actions pipelines for release automation.
