@@ -24,3 +24,4 @@
 [Azure SQL for beginners](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN) | Youtube playlist from MS Developer Team
 [Azure SQL Workshops](https://microsoft.github.io/sqlworkshops/?WT.mc_id=azuresql4beg_azuresql-ch9-code) | Microsoft workshop site covering both Azure SQL & SQL Server
 [SQL Language Courses & Tutorials](https://sql.sh/) | French site - excellent reference, and the vast majority can be translated by Google et al.
+[SQL and VS Code with Docker](https://www.freecodecamp.org/news/how-to-run-freecodecamps-relational-databases-curriculum-using-docker-vscode-and-coderoad/) | Learn relational database concepts and SQL right inside your editor.

@@ -11,17 +11,18 @@
 [Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/) | Visual guide for code reviews
 [Big O Notation](https://stackthrive.com/big-o-notation/) | Basics of Big O notation, why it is used and how describe the time and space complexity of algorithms with examples.
 [The Algorithms](https://github.com/TheAlgorithms) | Guides on getting started in almost all modern programming languages.
-[Harvard CS50](https://www.youtube.com/watch?v=8mAITcNt710&embeds_referring_euri=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fharvard-cs50%2F&source_ve_path=OTY3MTQ&feature=emb_imp_woyt) | 24hr video covering the full HArvard computer science course.
+[Harvard CS50](https://www.youtube.com/watch?v=8mAITcNt710&embeds_referring_euri=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fharvard-cs50%2F&source_ve_path=OTY3MTQ&feature=emb_imp_woyt) | 24hr video covering the full Harvard computer science course.
 [The Missing Semester (MIT)](https://missing.csail.mit.edu/) | Shell tools / scripting, CLI, version control (Git), debugging, security & cryptography.
+|[Docker in an hour](https://gist.github.com/leonjza/c4fb7c1b5949763f4878d1360bc951c3)| Workshop guide.
 [RegExr](https://regexr.com/) | Online regular expression testing environment.
 [Automate GitHub Releases](https://blog.pradumnasaraf.dev/automate-your-releases-on-github) | Guide to setting up Actions pipelines for release automation.
 | <s> | **Rust**
 |[Installing Rust](https://blog.logrocket.com/getting-up-to-speed-with-rust/)| Guide to install and get your system ready for Rust coding.
 |[Awesome Rust](https://github.com/rust-unofficial/awesome-rust) | Repo of awesome Rust resources.
 |[File IO in Rust](https://dev.to/oliverjumpertz/how-to-write-files-in-rust-m06)| Article covering  writing / appending using the standard library file system modules.
-|[Signal Processing](https://dev.to/logrocket/the-guide-to-signal-handling-in-rust-17b6)| Guide to signal processing with Tokio 
-|[]()| 
+|[Signal Processing](https://dev.to/logrocket/the-guide-to-signal-handling-in-rust-17b6)| Guide to signal processing with Tokio  
 | <s> | **Java & Scala**
+[Intro to Java](https://www.youtube.com/watch?v=A74TOX803D0&t=4s) | Full 4hr intro course.
 [Data Structures with Java](https://www.youtube.com/watch?v=RBSGKlAvoiM) | 8hr video course with a Google Engineer, from basic to advanced, theory to practice.
 [Scala for Python Programmers](https://docs.scala-lang.org/scala3/book/scala-for-python-devs.html) | Quick guide to main differences in syntax
 | <s> | **Python**
