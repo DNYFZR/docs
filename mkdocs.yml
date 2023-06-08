@@ -3,12 +3,12 @@ site_name: "Developer Resources"
 
 nav:
     - Home: index.md
-    - Software Development: software_development.md
-    - Data Sources: data_cave.md
-    - Data Engineering: data_engineering.md
-    - Machine Learning: machine_learning.md
-    - Azure: azure.md
-    - Cheat Sheets: cheat_sheets.md
+    - Software Development: pages/software_development.md
+    - Data Sources: pages/data_cave.md
+    - Data Engineering: pages/data_engineering.md
+    - Machine Learning: pages/machine_learning.md
+    - Azure: cloud/azure.md
+    - Cheat Sheets: pages/cheat_sheets.md
 
 theme:
   name: material
