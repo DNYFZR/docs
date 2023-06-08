@@ -1,13 +1,13 @@
 # Configuration File
-site_name: "ResourceHub"
+site_name: "Developer Resources"
 
 nav:
     - Home: index.md
+    - Software Development: software_development.md
     - Data Sources: data_cave.md
     - Data Engineering: data_engineering.md
-    - Data Science: data_science.md
-    - Dev Tools: dev_tools.md
-    - Programming: programming.md
+    - Machine Learning: machine_learning.md
+    - Azure: azure.md
     - Cheat Sheets: cheat_sheets.md
 
 theme:

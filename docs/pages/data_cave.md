@@ -2,7 +2,7 @@
 
 <br>
 
-[🏠 **Homepage**](index.md)
+[🏠 **Homepage**](../index.md)
 
 <br>
 
