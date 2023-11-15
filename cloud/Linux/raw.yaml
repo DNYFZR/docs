@@ -1,0 +1,66 @@
+# Script to be triggered on new file moved to raw dir
+# Moves file into stage dir for transformation
+
+name: Data Pipeline (Raw)
+
+on:
+  push:
+    branches:
+    - main
+    paths:
+      - data/raw/**
+      # - .github/workflows/**
+
+jobs:
+  Raw-Stage:
+    runs-on: ubuntu-latest
+  
+    steps:
+# Check out repo
+    - name: Checkout Repo Content
+      uses: actions/checkout@v2 
+
+# Navigate
+    - name: Navigate to Directory
+      run: cd  ${{ inputs.working_directory }}
+
+# Last updated file
+    - name: Find Latest File
+      id: file_name
+      run: |
+        # Get last file if dir exists
+        if [ -d 'data/raw/' ]; then
+          echo "::set-output name=FILENAME::$(ls data/raw/ -tp | grep -v /$ | head -1)"
+        else 
+          echo "Folder does not exist"
+        fi
+        
+# Copy to dir if variable has been set
+    - name: Copy to Stage
+      id: copy_file
+      if: "${{ steps.file_name.outputs.FILENAME }}"
+      run: |
+        # Copy file to stage dir, if dir does not exist, create
+        if [ -d 'data/stage/' ]; then
+          cp data/raw/${{ steps.file_name.outputs.FILENAME }} $PWD/data/stage/
+        else 
+          mkdir $PWD/data/stage/
+          cp data/raw/${{ steps.file_name.outputs.FILENAME }} $PWD/data/stage/
+        fi
+
+# Commit changes
+    - name: Commit Changes
+      if: "${{ steps.file_name.outputs.FILENAME }}"
+      run: |
+        # Git commit
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Actions raw-to-stage" --allow-empty
+
+    - name: Push Changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
+    

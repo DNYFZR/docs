@@ -1,0 +1,65 @@
+# GitHub Actions CI Pipeline
+name: 'CI_Pipeline'
+
+# On pull request or push to main branch src & dependecies
+on:
+  pull_request:
+   branches:
+      - main
+   paths:
+      - src/**
+      - dependencies/**
+      - .github/workflows/**
+
+  push: # if push to main is not disabled
+   branches:
+      - main
+   paths:
+      - src/**
+      - dependencies/**
+      - .github/workflows/**
+
+# Permissions for private repo
+permissions:
+  contents: write
+  issues: read
+  checks: write
+  pull-requests: write
+
+jobs:
+  IntegrationTesting:
+# Set-up Linux VM 
+    runs-on: 'ubuntu-latest'
+
+# Check out repo
+    steps:
+    - name: checkout repo content
+      uses: actions/checkout@v2 
+
+# Install Python & upgrade pip
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9.10' #install python
+
+    - name: Upgrade pip
+      run: |
+        python -m pip install --upgrade pip
+
+# Install dependencies & test libraries        
+    - name: install testing libraries
+      run: |
+        pip install pytest mock codecov pydocstyle pytest-cov pylint pylint_junit
+
+    - name: install project dependencies
+      run: |
+        pip install -r dependencies/requirements.txt
+
+# Run integration tests
+    - name: Run codebase functional testing
+      run: |
+        pytest -v src/tests/ --doctest-modules --junitxml=unit-testresults.xml --cov=src/pyDev/ --cov-append --cov-report=xml:xmlcov --cov-report=html:htmlcov 
+
+# Publish test results
+    - name: Publish test reuslts
+      uses: EnricoMi/publish-unit-test-result-action@v1.37
