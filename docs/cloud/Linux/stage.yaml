@@ -1,0 +1,95 @@
+# Script to be triggered on new file moved to stage dir by push or raw.yaml pipeline
+# Runs transforms & moves file into prod dir
+
+name: Data Pipeline (Stage)
+
+on:
+  workflow_run:
+    workflows: ['Data Pipeline (Raw)']
+    types:
+      - completed
+
+jobs:
+  StageToProd:
+# Set-up Linux VM
+    runs-on: ubuntu-latest
+  
+    steps:
+# Check out repo
+    - name: Checkout Repo Content
+      uses: actions/checkout@v2 
+
+# Install Python & upgrade pip
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10' 
+
+    - name: Upgrade pip & Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r libs/requirements.txt
+
+# Navigate
+    - name: Navigate to Directory
+      run: cd  ${{ inputs.working_directory }}
+
+# Last updated file name
+    - name: Find Latest File
+      id: new_file
+      run: |
+        # Get last file if dir exists
+        if [ -d 'data/stage/' ]; then
+          echo "::set-output name=FILENAME::$(ls data/stage/ -tp | grep -v /$ | head -1)"
+        else 
+          echo "Folder does not exist"
+        fi
+        
+# Run Python transformation module
+    - name: Run Transformation
+      env: 
+        INPUT_FILE: ${{ steps.new_file.outputs.FILENAME }}
+      run: |
+        cd src
+        python -m transform
+        cd ../
+
+# Transformation output
+    - name: Get Transformation Output
+      id: transformed_file
+      run: |
+        # Get last file if dir exists
+        if [ -d 'data/stage/' ]; then
+          echo "::set-output name=FILENAME::$(ls data/stage/ -tp | grep -v /$ | head -1)"
+        else 
+          echo "Folder does not exist"
+        fi
+        
+# Copy to dir if variable has been set
+    - name: Copy to Prod
+      id: copy_file
+      if: "${{ steps.transformed_file.outputs.FILENAME }}"
+      run: |
+        # Copy file to prod dir
+        if [ -d 'data/prod/' ]; then
+          cp data/stage/${{ steps.transformed_file.outputs.FILENAME }} $PWD/data/prod/
+        else 
+          mkdir $PWD/data/prod/
+          cp data/stage/${{ steps.transformed_file.outputs.FILENAME }} $PWD/data/prod/
+        fi
+
+# Commit changes
+    - name: Commit Changes
+      if: "${{ steps.transformed_file.outputs.FILENAME }}"
+      run: |
+        # Git commit
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Actions stage-to-prod" --allow-empty
+      
+    - name: Push Changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main

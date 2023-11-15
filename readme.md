@@ -16,3 +16,35 @@
 [Machine Learning](docs/pages/machine_learning.md) | Links to resources for learning data analytics, data science and machine learning
 [Data Sources](docs/pages/data_cave.md) | API & dataset resources grouped by topic
 [Cheat Sheet Library](docs/pages/cheat_sheets.md) | A range of cheat sheets for Python, SQL, Data Science & Visual Studio Code
+
+
+This project has been build using mkdocs & the mkdocs-material theme.
+
+- The site is configured using the [mkdocs.yml](/mkdocs.yml)
+
+- Site pages are managed via the [docs](/docs/) directory
+
+- Build is managed via [GitHub Actions](https://github.com/DNYFZR/Resources/actions)
+
+<br>
+
+Python has been used to create a development environment, and to install the mkdocs packages within it :
+
+````ps1
+# Set up & install
+python -m venv <env_name>
+cd <env_name>/scripts
+./activate
+
+python -m pip install -U pip
+python -m pip install mkdocs mkdocs-material
+
+# Setup project
+cd ../../
+mkdocs new <project_name>
+
+# Launch mkdocs local server 
+cd <project_name>
+mkdocs serve
+
+````
