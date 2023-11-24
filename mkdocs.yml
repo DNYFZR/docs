@@ -8,6 +8,7 @@ nav:
     - Data Engineering: pages/data_engineering.md
     - Machine Learning: pages/machine_learning.md
     - Azure: cloud/azure.md
+    - DevOps: devops/index.md
     - Cheat Sheets: pages/cheat_sheets.md
 
 theme:
