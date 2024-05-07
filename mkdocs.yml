@@ -3,6 +3,7 @@ site_name: "Developer Resources"
 
 nav:
     - Home: index.md
+    - Coding: pages/coding.md
     - Software Development: pages/software_development.md
     - Data Sources: pages/data_cave.md
     - Data Engineering: pages/data_engineering.md
